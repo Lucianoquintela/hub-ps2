@@ -1,4 +1,4 @@
-Política de Privacidade para o Aplicativo DicasPS2
+#Política de Privacidade para o Aplicativo DicasPS2
 
 Esta política de privacidade descreve como coletamos, usamos e protegemos as informações dos usuários do aplicativo DicasPS2.
 
