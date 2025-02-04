@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    background-color: #1C1C1C;
+    color:white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+   
+}
+
+header {
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+main{    
+    margin:25px;
+    min-height: 600px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+h2{
+    color:gold;
+}
+footer {
+    width: 100%;
+    background-color: #363636;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+/* CSS cards das paginas*/
+.container-cards{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+.cards{
+    background-color: #363636;
+    padding:15px;
+}
+.btn-codigos{
+    width:28px;
+    margin-bottom:-6px;
+}
+
+
+
+/* pagina resident evil 4*/
+.img-puzzle{
+    width:100%;      
+  margin: 10px 0;   
+}
+
+button#toggleButton {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin-top: 50px;
+  margin-left: 25px;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+li {
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+}
+
+ul li {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+}
+
+li:hover {
+  background: rgb(190, 253, 1);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgb(70, 252, 103) 100%);
+}
+
+.sidebar {
+  position: fixed;
+  left: -250px;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  padding-top: 20px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar.show {
+  left: 0;
+}
+
+img#toggleButton {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
+  width: 40px;
+  cursor: pointer;
+}
+
+#closeButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1001;
+  color: white;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
